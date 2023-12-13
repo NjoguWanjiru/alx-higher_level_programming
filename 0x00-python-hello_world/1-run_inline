@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script runs inline Python code
+
+# Get the Python code from the environment variable
+PYCODE="$PYCODE"
+
+# Execute the Python code
+python3 -c "$PYCODE"
